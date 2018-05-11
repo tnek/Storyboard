@@ -105,7 +105,7 @@ class Page(Element):
         filtered_hierarchy = []
 
         for cnt in range(len(contours)):
-            if cv2.contourArea(contours[cnt]) > 10:
+            if True:#cv2.contourArea(contours[cnt]) > 10:
                 rect = cv2.minAreaRect(contours[cnt])
                 box = cv2.boxPoints(rect)
                 box = np.int0(box)
