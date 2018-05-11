@@ -1,0 +1,6 @@
+# Package Manager files
+node_modules/
+yarn-error.log
+
+# Generated files
+dist/

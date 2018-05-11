@@ -1,0 +1,35 @@
+{
+  "name": "storyboard",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "pa_ssion",
+  "license": "MIT",
+  "dependencies": {
+    "yarn": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-redux": "^5.0.19",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.6",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.1.1",
+    "electron": "^1.8.6",
+    "electron-webpack": "^2.0.1",
+    "electron-webpack-ts": "^2.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "clean": "rm -rf ./dist",
+    "compile": "electron-webpack",
+    "dev": "electron-webpack dev"
+  }
+}
